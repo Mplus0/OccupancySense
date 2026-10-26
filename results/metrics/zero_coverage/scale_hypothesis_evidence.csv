@@ -1,0 +1,9 @@
+﻿field,assumed_unit,raw_missing,raw_in_range,divide1000_candidates,zero_raw_ok,zero_scale_candidates,reference,reference_pairs,median_abs_difference_before,median_abs_difference_hypothesis,mixed_scale_measure_groups,adjacent_scale_switches
+CO2C1,"assumed ppm; review range, not physical bound",4620,6289,176,325,0,CO2D,0,,,0,0
+TairC1,assumed degC,4616,703,5766,32,293,TairD,3350,21369.15,0.661999999999999,35,193
+RHC1,assumed %RH,4616,624,5845,24,301,RHD,3416,44385.3,2.6290000000000013,44,1095
+DewPointC1,assumed degC,4616,578,5889,32,293,none,0,,,43,1000
+CO2C2,"assumed ppm; review range, not physical bound",2007,8902,176,545,0,CO2D,0,,,0,0
+TairC2,assumed degC,1990,681,8414,48,498,TairD,5204,20856.75,0.786999999999999,39,244
+RHC2,assumed %RH,1990,861,8234,70,476,RHD,5094,42924.05,2.5145000000000017,47,1545
+DewPointC2,assumed degC,1990,891,8204,69,477,none,0,,,47,1567

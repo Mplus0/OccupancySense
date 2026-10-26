@@ -1,0 +1,4 @@
+﻿split,rows,fraction,measure_groups,candidate_sessions,class_0,class_0_sessions,class_1,class_1_sessions,class_2,class_2_sessions,class_3,class_3_sessions
+train,5355,0.6891005018659118,29,12,363,7,1397,11,1334,12,2261,12
+validation,1233,0.15866683824475614,10,6,100,2,326,6,304,5,503,5
+test,1183,0.15223265988933213,8,7,82,2,300,7,316,5,485,4

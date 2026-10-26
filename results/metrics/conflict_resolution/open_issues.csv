@@ -1,0 +1,5 @@
+﻿issue,evidence,conclusion,action,resolved
+same_three_channel_observation_under_3_measure_ids,"C2 CO2C2/TairC2/RHC2 identical for 184 keys across St Julia 4to, St Julia P4, Bressol JM A1; temp/humidity are ~1000x off instrument scale for every participant",sensor observation cannot be attributed to a single room,no label change; quarantine candidate only,False
+which_occupancy_label_belongs_to_the_observation,"P4 consistently 11-15 people, 4to 1-5 people, JM A1 0-12 on the identical triple",publication metadata does not say which occupant count was measured by the C2 device,requires occupied-count record or device placement trace from the source,False
+multi_sensor_version_scale_repair,3136 TairC2/RHC2 field operations pass the fixed divisor-1000 rule against past anchor and D reference,engineering candidate only; publisher erratum not found,excluded from first-round training; unaffected by the quarantine,False
+conflict_affects_validation_or_test,all 368 retained conflict rows sit in the train split of the candidate plan,evaluation sets are not directly contaminated by these keys,record as evidence; not a substitute for resolving labels,True

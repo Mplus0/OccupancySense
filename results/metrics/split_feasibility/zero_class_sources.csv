@@ -1,0 +1,8 @@
+﻿Measure_ID,rows,room,school_candidate,start,end,dependency,class_0,class_1,class_2,class_3
+20220204_Escola Gaia_Bacho kira_20220204,67,Bacho kira,Escola Gaia,2022-02-04 10:07:00,2022-02-04 11:13:00,candidate_3116bfa963336b0e,1,0,3,63
+20220204_Gaia_Bacho kira_20220204,67,Bacho kira,Escola Gaia,2022-02-04 10:07:00,2022-02-04 11:13:00,candidate_3116bfa963336b0e,1,0,3,63
+20220321_Escola Roureda_A2_,433,4toA,Escola Roureda,2022-03-21 09:16:00,2022-03-21 16:28:00,candidate_1f24a2383aeacd5e,13,145,2,273
+20220322_Escola Bressol Vapor Buxeda Nou_A1_,455,p4,Escola Bressol Vapor Buxeda Nou,2022-03-22 08:54:00,2022-03-22 16:28:00,candidate_5e7f3926d05d648d,97,68,175,115
+20220322_Escola Bressol Vapor Buxeda Nou_A2_,470,A1,Escola Bressol Vapor Buxeda Nou,2022-03-22 08:48:00,2022-03-22 16:37:00,candidate_5e7f3926d05d648d,73,140,131,126
+20220525_ETSEIB_10.15_1_20220525,224,10.15_1,ETSEIB,2022-05-25 10:12:00,2022-05-25 14:03:00,candidate_4fbb86f761cd73d4,1,11,163,49
+20220525_ETSEIB_10.15_a_20220525,101,10.15_a,ETSEIB,2022-05-25 10:12:00,2022-05-25 11:52:00,candidate_4fbb86f761cd73d4,6,6,89,0

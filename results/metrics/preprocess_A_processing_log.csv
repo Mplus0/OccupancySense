@@ -1,0 +1,8 @@
+﻿rule,reason,matched_raw_rows,input_rows,removed_this_step,remaining_rows
+missing_label,人数标签缺失；不当作0或插补,1237,11085,1237,9848
+invalid_label,人数必须为有限整数且在0~60内,0,9848,0,9848
+invalid_time,时间缺失或不符合YYYY-MM-DD HH:MM:SS,0,9848,0,9848
+future_time,晚于固定审核日期；隔离，不推测修正年份,2,9848,0,9848
+missing_D_core,D_core不完整；v1采用完整观测，不插补,4711,9848,3732,6116
+invalid_D_core,D_core包含非数字或非有限值,0,6116,0,6116
+out_of_range_D_core,超出预先确定的审核范围；隔离待核实，不裁剪,0,6116,0,6116

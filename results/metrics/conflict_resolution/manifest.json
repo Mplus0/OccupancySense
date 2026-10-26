@@ -1,0 +1,25 @@
+{
+  "status": "OPEN",
+  "conflict_keys": 184,
+  "conflict_rows": 368,
+  "keys_unattributable": 184,
+  "keys_off_scale": 183,
+  "keys_plausible_values": 1,
+  "measure_ids_involved": [
+    "20220307_Escola St Julia_4to_",
+    "20220307_Escola St Julia_P4_"
+  ],
+  "quarantine_candidate_session": [
+    "20220307_Escola St Julia_4to_"
+  ],
+  "quarantine_rows": 1447,
+  "labels_modified": false,
+  "outputs_refreshed": true,
+  "training_performed": false,
+  "inputs_sha256": {
+    "data\\raw\\ieq-dataset.csv": "4a6e57349edf3ab2e0cdfef61f13cfd1941c059a4e2714eefc5dfa74430356a2",
+    "data\\processed\\A_C2_CO2_v1.csv": "7a06efa12735305f934eeacfe99632f48744d6ad3c37b95fc626136ba65728ee",
+    "results\\metrics\\pretraining_audit\\conflict_row_evidence.csv": "12bd13a0961d9a9acea4a55410e9fe855138bbfc0d4c45e1142f007f8d3d49bd"
+  },
+  "script_sha256": "661ea9a1630fe15ed7abbfd106d3049f43d13d0e7f0629d1b49c6357be7b02e5"
+}

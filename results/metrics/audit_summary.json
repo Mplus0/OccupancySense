@@ -1,0 +1,283 @@
+{
+  "as_of": "2026-10-26",
+  "versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "matplotlib": "3.10.0"
+  },
+  "method": "Read-only; thresholds are screening assumptions, not device specifications; divide-1000 is diagnostic only. See sensor_checks CSVs for bounds; nonfinite numbers exported as null.",
+  "datasets": {
+    "A": {
+      "dataset": "A",
+      "source": "D:\\Desktop\\大数据\\期末项目\\OccupancySense\\data\\raw\\ieq-dataset.csv",
+      "sha256_before": "4a6e57349edf3ab2e0cdfef61f13cfd1941c059a4e2714eefc5dfa74430356a2",
+      "sha256_after": "4a6e57349edf3ab2e0cdfef61f13cfd1941c059a4e2714eefc5dfa74430356a2",
+      "source_unchanged": true,
+      "sheet_names": null,
+      "rows": 11085,
+      "columns": 33,
+      "missing_cells": 161275,
+      "missing_cell_rate": 0.44087696997033937,
+      "complete_rows_all_columns": 387,
+      "label_missing": 1237,
+      "invalid_nonmissing_labels": 0,
+      "valid_labels": 9848,
+      "label_min": 0.0,
+      "label_max": 60.0,
+      "label_distinct": 43,
+      "zero_labels": 556,
+      "zero_fraction_labeled": 0.05645816409423233,
+      "time_min_raw": "2021-11-16 12:28:00",
+      "time_max_raw": "2222-03-07 12:03:00",
+      "time_min_nonfuture": "2021-11-16 12:28:00",
+      "time_max_nonfuture": "2022-06-21 14:13:00",
+      "time_unparseable_or_missing": 0,
+      "future_time_rows": 2,
+      "measure_date_mismatch_rows": 467,
+      "groups": {
+        "Measure_ID": {
+          "unique_non_missing": 55,
+          "missing_rows": 0,
+          "constant_label_groups": 3,
+          "smallest_group": 24,
+          "largest_group": 820
+        },
+        "Aula": {
+          "unique_non_missing": 34,
+          "missing_rows": 1237,
+          "constant_label_groups": 2,
+          "smallest_group": 24,
+          "largest_group": 1647
+        }
+      },
+      "duplicates": [
+        {
+          "definition": "all_columns",
+          "extra_rows": 0,
+          "all_involved_rows": 0
+        },
+        {
+          "definition": "excluding_identifiers",
+          "extra_rows": 330,
+          "all_involved_rows": 660
+        },
+        {
+          "definition": "measure_and_time",
+          "extra_rows": 0,
+          "all_involved_rows": 0
+        },
+        {
+          "definition": "room_name_and_time_candidates",
+          "extra_rows": 1219,
+          "all_involved_rows": 2438
+        }
+      ],
+      "adjacent_equal_label_fraction": 0.8847135709180026,
+      "cross_measure_duplicate_pairs": [
+        {
+          "measure_left": "20220204_Escola Gaia_Bacho kira_20220204",
+          "measure_right": "20220204_Gaia_Bacho kira_20220204",
+          "identical_observations": 66
+        },
+        {
+          "measure_left": "20220204_Escola Gaia_Kebara_20220204",
+          "measure_right": "20220204_Gaia_Kebara_20220204",
+          "identical_observations": 77
+        },
+        {
+          "measure_left": "20220307_Escola St Julia_4to_",
+          "measure_right": "20220308_Escola Bressol Joan Montllor_A1_",
+          "identical_observations": 2
+        },
+        {
+          "measure_left": "20220307_Escola St Julia_P4_",
+          "measure_right": "20220308_Escola Bressol Joan Montllor_A1_",
+          "identical_observations": 1
+        },
+        {
+          "measure_left": "20220308_Escola Bressol Joan Montllor_A1_",
+          "measure_right": "20220308_Escola Bressol Joan Montllor_A2_",
+          "identical_observations": 177
+        },
+        {
+          "measure_left": "20220322_Escola Bressol Vapor Buxeda Nou_A1_",
+          "measure_right": "20220322_Escola Bressol Vapor Buxeda Nou_A2_",
+          "identical_observations": 7
+        }
+      ],
+      "candidate_feature_coverage": [
+        {
+          "feature_set": "D_core",
+          "columns": "CO2D; TairD; RHD",
+          "valid_label_and_present": 6116,
+          "also_within_screening_ranges": 6116,
+          "fraction_all_rows": 0.5517365809652683
+        },
+        {
+          "feature_set": "D_core_plus_outdoor",
+          "columns": "CO2D; TairD; RHD; TairE",
+          "valid_label_and_present": 3357,
+          "also_within_screening_ranges": 3357,
+          "fraction_all_rows": 0.30284167794316647
+        }
+      ],
+      "sensor_outside_counts": {
+        "TairC1": 5766,
+        "RHC1": 5845,
+        "DewPointC1": 5891,
+        "CO2C1": 176,
+        "TairC2": 8414,
+        "RHC2": 8234,
+        "DewPointC2": 8204,
+        "CO2C2": 176,
+        "CO2R": 1538,
+        "CO2D": 0,
+        "TairE": 0,
+        "TairR": 1522,
+        "RHR": 1557,
+        "PM01R": 594,
+        "PM2.5R": 664,
+        "PM10R": 676,
+        "TgD": 0,
+        "TairD": 0,
+        "PrD": 0,
+        "RHD": 0,
+        "VaD": 0,
+        "VOCD": 0,
+        "Metabolic": 140
+      },
+      "sensor_divide_1000_candidates": {
+        "TairC1": 5766,
+        "RHC1": 5845,
+        "DewPointC1": 5889,
+        "CO2C1": 176,
+        "TairC2": 8414,
+        "RHC2": 8234,
+        "DewPointC2": 8204,
+        "CO2C2": 176,
+        "CO2R": 1538,
+        "CO2D": 0,
+        "TairE": 0,
+        "TairR": 1522,
+        "RHR": 1557,
+        "PM01R": 594,
+        "PM2.5R": 664,
+        "PM10R": 676,
+        "TgD": 0,
+        "TairD": 0,
+        "PrD": 0,
+        "RHD": 0,
+        "VaD": 0,
+        "VOCD": 0,
+        "Metabolic": 18
+      }
+    },
+    "B": {
+      "dataset": "B",
+      "source": "D:\\Desktop\\大数据\\期末项目\\OccupancySense\\data\\raw\\Classroom_data_combined_main.xlsx",
+      "sha256_before": "d344d68dec35cc67f01479fe22baae5f5b93fe0cecf1ad8f0171f56c18356408",
+      "sha256_after": "d344d68dec35cc67f01479fe22baae5f5b93fe0cecf1ad8f0171f56c18356408",
+      "source_unchanged": true,
+      "sheet_names": [
+        "Classroom_data_combined"
+      ],
+      "rows": 16700,
+      "columns": 25,
+      "missing_cells": 0,
+      "missing_cell_rate": 0.0,
+      "complete_rows_all_columns": 16700,
+      "label_missing": 0,
+      "invalid_nonmissing_labels": 0,
+      "valid_labels": 16700,
+      "label_min": 0.0,
+      "label_max": 31.0,
+      "label_distinct": 9,
+      "zero_labels": 15030,
+      "zero_fraction_labeled": 0.9,
+      "time_min_raw": "2022-09-26 17:50:00",
+      "time_max_raw": "2023-01-20 17:00:00",
+      "time_min_nonfuture": "2022-09-26 17:50:00",
+      "time_max_nonfuture": "2023-01-20 17:00:00",
+      "time_unparseable_or_missing": 0,
+      "future_time_rows": 0,
+      "measure_date_mismatch_rows": 0,
+      "groups": {},
+      "duplicates": [
+        {
+          "definition": "all_columns",
+          "extra_rows": 0,
+          "all_involved_rows": 0
+        },
+        {
+          "definition": "excluding_identifiers",
+          "extra_rows": 0,
+          "all_involved_rows": 0
+        },
+        {
+          "definition": "timestamp",
+          "extra_rows": 0,
+          "all_involved_rows": 0
+        }
+      ],
+      "adjacent_equal_label_fraction": 0.981915084735613,
+      "cross_measure_duplicate_pairs": [],
+      "candidate_feature_coverage": [
+        {
+          "feature_set": "indoor_temperature_humidity",
+          "columns": "TemperatureF9B (°C); HumidityF9B (%); TemperatureF9D (°C); HumidityF9D (%); TemperatureF94 (°C); HumidityF94 (%); TemperatureF96 (°C); HumidityF96 (%); TemperatureF98 (°C); HumidityF98 (%); TemperatureFA1 (°C); HumidityFA1 (%)",
+          "valid_label_and_present": 16700,
+          "also_within_screening_ranges": 16700,
+          "fraction_all_rows": 1.0
+        }
+      ],
+      "sensor_outside_counts": {
+        "TemperatureF9B (°C)": 0,
+        "HumidityF9B (%)": 0,
+        "TemperatureF9D (°C)": 0,
+        "HumidityF9D (%)": 0,
+        "TemperatureF94 (°C)": 0,
+        "HumidityF94 (%)": 0,
+        "TemperatureF96 (°C)": 0,
+        "HumidityF96 (%)": 0,
+        "TemperatureF98 (°C)": 0,
+        "HumidityF98 (%)": 0,
+        "TemperatureFA1 (°C)": 0,
+        "HumidityFA1 (%)": 0,
+        "Door state close (0)/ Open (1)": 0,
+        "2_Window_state [Open/close]": 0,
+        "2_Blind [%]": 0,
+        "3_Window_state [Open/close]": 0,
+        "3_Blind [%]": 0,
+        "Outdoor temperature (°C)": 0,
+        "Outdoor humidity [%]": 8,
+        "Outdoor Wind speed [km/h]": 30,
+        "HVAC state [0/1]": 0,
+        "Set point temperature": 0
+      },
+      "sensor_divide_1000_candidates": {
+        "TemperatureF9B (°C)": 0,
+        "HumidityF9B (%)": 0,
+        "TemperatureF9D (°C)": 0,
+        "HumidityF9D (%)": 0,
+        "TemperatureF94 (°C)": 0,
+        "HumidityF94 (%)": 0,
+        "TemperatureF96 (°C)": 0,
+        "HumidityF96 (%)": 0,
+        "TemperatureF98 (°C)": 0,
+        "HumidityF98 (%)": 0,
+        "TemperatureFA1 (°C)": 0,
+        "HumidityFA1 (%)": 0,
+        "Door state close (0)/ Open (1)": 0,
+        "2_Window_state [Open/close]": 0,
+        "2_Blind [%]": 0,
+        "3_Window_state [Open/close]": 0,
+        "3_Blind [%]": 0,
+        "Outdoor temperature (°C)": 0,
+        "Outdoor humidity [%]": 0,
+        "Outdoor Wind speed [km/h]": 0,
+        "HVAC state [0/1]": 0,
+        "Set point temperature": 0
+      }
+    }
+  }
+}

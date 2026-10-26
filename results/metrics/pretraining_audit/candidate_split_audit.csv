@@ -1,0 +1,4 @@
+﻿split,rows,measure_groups,candidate_sessions,schools,conflict_rows,class_0,class_0_sessions,class_1,class_1_sessions,class_2,class_2_sessions,class_3,class_3_sessions
+train,5723,29,12,9,368,363,7,1548,11,1518,12,2294,12
+validation,1183,8,7,3,0,82,2,300,7,316,5,485,4
+test,1233,10,6,4,0,100,2,326,6,304,5,503,5

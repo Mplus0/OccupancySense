@@ -1,0 +1,26 @@
+﻿column,dtype,non_missing,missing,missing_rate,unique_non_missing,blank_string_count
+Unnamed: 0,int64,16700,0,0.0,16700,0
+Date_Time,datetime64[ns],16700,0,0.0,16700,0
+TemperatureF9B (°C),float64,16700,0,0.0,717,0
+HumidityF9B (%),int64,16700,0,0.0,53,0
+TemperatureF9D (°C),float64,16700,0,0.0,710,0
+HumidityF9D (%),int64,16700,0,0.0,52,0
+TemperatureF94 (°C),float64,16700,0,0.0,641,0
+HumidityF94 (%),int64,16700,0,0.0,53,0
+TemperatureF96 (°C),float64,16700,0,0.0,541,0
+HumidityF96 (%),int64,16700,0,0.0,47,0
+TemperatureF98 (°C),float64,16700,0,0.0,774,0
+HumidityF98 (%),int64,16700,0,0.0,53,0
+TemperatureFA1 (°C),float64,16700,0,0.0,697,0
+HumidityFA1 (%),int64,16700,0,0.0,53,0
+Door state close (0)/ Open (1),int64,16700,0,0.0,2,0
+2_Window_state [Open/close],int64,16700,0,0.0,2,0
+2_Blind [%],int64,16700,0,0.0,5,0
+3_Window_state [Open/close],int64,16700,0,0.0,2,0
+3_Blind [%],int64,16700,0,0.0,3,0
+Outdoor temperature (°C),float64,16700,0,0.0,15984,0
+Outdoor humidity [%],float64,16700,0,0.0,15823,0
+Outdoor Wind speed [km/h],float64,16700,0,0.0,15776,0
+HVAC state [0/1],int64,16700,0,0.0,2,0
+Occupants_number,int64,16700,0,0.0,9,0
+Set point temperature,float64,16700,0,0.0,9,0

@@ -1,0 +1,9 @@
+{
+  "selected_model": "svm",
+  "selected_model_path": "models\\co2_baseline_v1\\svm.joblib",
+  "selected_model_sha256": "a26677fce6d9df21a3faa822f2489c7af7e2d113d8fa2b590c20e661af07bfe1",
+  "validation_comparison_sha256": "e9193c375d088141a496f16de431d1f3787c49739951af202268c76ab5080249",
+  "test_path": "data\\processed\\co2_baseline_v1\\test.csv",
+  "test_sha256": "cd42de4b7b0d38782ec9791348dcd53f77d4522e7abc5efa76f58e76aca2d7a1",
+  "decision_basis": "validation metrics only; fixed configurations; no test predictions made by train.py"
+}

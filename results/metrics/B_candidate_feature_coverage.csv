@@ -1,0 +1,2 @@
+﻿feature_set,columns,valid_label_and_present,also_within_screening_ranges,fraction_all_rows
+indoor_temperature_humidity,TemperatureF9B (°C); HumidityF9B (%); TemperatureF9D (°C); HumidityF9D (%); TemperatureF94 (°C); HumidityF94 (%); TemperatureF96 (°C); HumidityF96 (%); TemperatureF98 (°C); HumidityF98 (%); TemperatureFA1 (°C); HumidityFA1 (%),16700,16700,1.0

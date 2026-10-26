@@ -1,0 +1,9 @@
+﻿metric,before,after
+rows,11085,6116
+valid_labels,9848,6116
+measure_ids,55,39
+room_names_not_global_ids,34,28
+manual_review_rows,4381,2687
+missing_CO2D,4711,0
+missing_TairD,4711,0
+missing_RHD,4711,0

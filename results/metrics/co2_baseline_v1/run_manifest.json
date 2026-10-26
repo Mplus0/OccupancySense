@@ -1,0 +1,66 @@
+{
+  "seed": 42,
+  "features": [
+    "CO2C2"
+  ],
+  "configs": {
+    "majority": {
+      "strategy": "most_frequent",
+      "random_state": 42
+    },
+    "random_forest": {
+      "n_estimators": 300,
+      "min_samples_leaf": 3,
+      "class_weight": "balanced",
+      "random_state": 42,
+      "n_jobs": 1
+    },
+    "svm": {
+      "C": 1.0,
+      "kernel": "rbf",
+      "gamma": "scale",
+      "class_weight": "balanced",
+      "random_state": 42
+    }
+  },
+  "selection_metric": "validation Macro-F1; ties balanced_accuracy, accuracy, fixed insertion order",
+  "standardization_fit": "training only; SVM only",
+  "resampling": false,
+  "validation_refit": false,
+  "test_used_for_selection": false,
+  "provenance": {
+    "original_dataset_sha256": "7a06efa12735305f934eeacfe99632f48744d6ad3c37b95fc626136ba65728ee",
+    "raw_sha256": "4a6e57349edf3ab2e0cdfef61f13cfd1941c059a4e2714eefc5dfa74430356a2",
+    "candidate_plan_sha256": "c220296f589c722e32fc628543be6d3247a8bcd5b75728e042f25932b49bd5b9",
+    "cleaned_dataset_sha256": "2a4f0c58108e900b819d8e8a385b640290a3037118d4f13f800b53161ec6f8cf",
+    "removed_records": 368,
+    "removed_keys": 184,
+    "split_sha256": {
+      "train": "219e8d15027ff8bb91f8f042f1c34b06a0f6cc6f56f60b92f9f015d871f7cf04",
+      "validation": "4e9953697400c7969cb95d8106bd94f6b54bbf888c1791a7c84914540a80df39",
+      "test": "cd42de4b7b0d38782ec9791348dcd53f77d4522e7abc5efa76f58e76aca2d7a1"
+    }
+  },
+  "protected_input_sha256": {
+    "data\\raw\\Classroom_data_combined_main.xlsx": "d344d68dec35cc67f01479fe22baae5f5b93fe0cecf1ad8f0171f56c18356408",
+    "data\\raw\\ieq-dataset.csv": "4a6e57349edf3ab2e0cdfef61f13cfd1941c059a4e2714eefc5dfa74430356a2",
+    "data\\processed\\A_C2_CO2_no_conflicts_v1.csv": "2a4f0c58108e900b819d8e8a385b640290a3037118d4f13f800b53161ec6f8cf",
+    "data\\processed\\A_C2_CO2_v1.csv": "7a06efa12735305f934eeacfe99632f48744d6ad3c37b95fc626136ba65728ee",
+    "data\\processed\\A_C2_core_raw_v1.csv": "c909b1a5c925293f270b1149a1dcdbd05d807a31b578a7aaae145c89e08de13f",
+    "data\\processed\\A_C2_core_supported_candidate_v1.csv": "5de400572047161ddf6458f896051be6048df0904ed9892faecef04603e26051",
+    "data\\processed\\A_D_core_v1.csv": "6eca4e5db2c9b4e448230c1b5d85ed6945f38ae567f6371284a2442e1cf7d71e",
+    "data\\processed\\co2_baseline_v1\\test.csv": "cd42de4b7b0d38782ec9791348dcd53f77d4522e7abc5efa76f58e76aca2d7a1",
+    "data\\processed\\co2_baseline_v1\\train.csv": "219e8d15027ff8bb91f8f042f1c34b06a0f6cc6f56f60b92f9f015d871f7cf04",
+    "data\\processed\\co2_baseline_v1\\validation.csv": "4e9953697400c7969cb95d8106bd94f6b54bbf888c1791a7c84914540a80df39"
+  },
+  "versions": {
+    "sklearn": "1.6.1",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "joblib": "1.4.2"
+  },
+  "script_sha256": {
+    "train.py": "baaae82ce778429b9d84ab022d36fd0af47144761861dfd44fddb15719f6feb2",
+    "evaluate.py": "5d4059d27e190f28a234718c45ab97590bf4911ad17c87da59f2ea57f5a233bf"
+  }
+}

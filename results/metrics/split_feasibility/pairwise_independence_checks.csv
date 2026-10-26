@@ -1,0 +1,22 @@
+﻿left,right,time_ranges_overlap,shared_timestamps,same_school_candidate,same_room_name,inherited_dependency,equal_core_time_row_pairs,conflicting_class_pairs
+20211201_ETSEIB_10.15_20211201,20220311_ETSEIB_10.15_20220311,False,0,True,True,False,0,0
+20211201_ETSEIB_10.15_20211201,20220511_ETSEIB_10.15_20220511,False,0,True,True,False,0,0
+20220204_Escola Gaia_Bacho kira_20220204,20220204_Gaia_Bacho kira_20220204,True,67,True,True,True,67,0
+20220204_Escola Gaia_Kebara_20220204,20220204_Gaia_Kebara_20220204,True,77,True,True,True,77,0
+20220307_Escola St Julia_4to_,20220307_Escola St Julia_4to_4to_20220307,True,214,True,True,True,9,0
+20220307_Escola St Julia_4to_,20220307_Escola St Julia_P4_,False,0,True,False,True,0,0
+20220307_Escola St Julia_4to_,20220308_Escola Bressol Joan Montllor_A1_,False,0,False,True,True,0,0
+20220307_Escola St Julia_4to_,20220308_Escola Bressol Joan Montllor_A2_,False,0,False,True,True,0,0
+20220307_Escola St Julia_4to_4to_20220307,20220307_Escola St Julia_P4_,True,219,True,False,True,6,6
+20220307_Escola St Julia_4to_4to_20220307,20220308_Escola Bressol Joan Montllor_A1_,False,0,False,True,True,0,0
+20220307_Escola St Julia_4to_4to_20220307,20220308_Escola Bressol Joan Montllor_A2_,False,0,False,True,True,0,0
+20220307_Escola St Julia_P4_,20220308_Escola Bressol Joan Montllor_A1_,False,0,False,False,True,0,0
+20220307_Escola St Julia_P4_,20220308_Escola Bressol Joan Montllor_A2_,False,0,False,False,True,0,0
+20220308_Escola Bressol Joan Montllor_A1_,20220308_Escola Bressol Joan Montllor_A2_,False,0,True,True,True,0,0
+20220311_ETSEIB_10.15_20220311,20220511_ETSEIB_10.15_20220511,False,0,True,True,False,0,0
+20220321_Escola Roureda_A1_,20220321_Escola Roureda_A2_,True,433,True,False,False,0,0
+20220322_Escola Bressol Vapor Buxeda Nou_A1_,20220322_Escola Bressol Vapor Buxeda Nou_A2_,True,455,True,False,True,0,0
+20220525_ETSEIB_10.15_1_20220525,20220525_ETSEIB_10.15_a_20220525,True,101,True,False,True,101,6
+20220525_ETSEIB_10.15_1_20220525,20220525_ETSEIB_10.15_b_20220525,True,105,True,False,True,105,0
+20220525_ETSEIB_10.15_1_20220525,20220527_ETSEIB_10.15_1_20220527,False,0,True,True,False,0,0
+20220525_ETSEIB_10.15_a_20220525,20220525_ETSEIB_10.15_b_20220525,False,0,True,False,True,0,0

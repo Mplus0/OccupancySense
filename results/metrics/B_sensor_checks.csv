@@ -1,0 +1,23 @@
+﻿column,kind,assumed_unit,lower,upper,observed,min,median,max,outside_range,outside_rate_observed,in_range_raw,divide_1000_candidates,iqr_outliers_raw
+TemperatureF9B (°C),temperature,assumed degC,-50,60,16700,16.61,21.61,27.61,0,0.0,16700,0,0
+HumidityF9B (%),humidity,assumed %RH,0,100,16700,26.0,58.0,78.0,0,0.0,16700,0,8
+TemperatureF9D (°C),temperature,assumed degC,-50,60,16700,16.22,21.55,27.3,0,0.0,16700,0,0
+HumidityF9D (%),humidity,assumed %RH,0,100,16700,26.0,57.0,77.0,0,0.0,16700,0,10
+TemperatureF94 (°C),temperature,assumed degC,-50,60,16700,16.94,21.45,26.24,0,0.0,16700,0,0
+HumidityF94 (%),humidity,assumed %RH,0,100,16700,26.0,58.0,78.0,0,0.0,16700,0,10
+TemperatureF96 (°C),temperature,assumed degC,-50,60,16700,18.03,21.7,25.84,0,0.0,16700,0,0
+HumidityF96 (%),humidity,assumed %RH,0,100,16700,30.0,57.0,76.0,0,0.0,16700,0,8
+TemperatureF98 (°C),temperature,assumed degC,-50,60,16700,16.27,21.59,28.11,0,0.0,16700,0,0
+HumidityF98 (%),humidity,assumed %RH,0,100,16700,26.0,58.0,78.0,0,0.0,16700,0,34
+TemperatureFA1 (°C),temperature,assumed degC,-50,60,16700,16.45,21.58,27.22,0,0.0,16700,0,0
+HumidityFA1 (%),humidity,assumed %RH,0,100,16700,26.0,58.0,78.0,0,0.0,16700,0,14
+Door state close (0)/ Open (1),state,binary 0/1,0,1,16700,0.0,0.0,1.0,0,0.0,16700,0,1650
+2_Window_state [Open/close],state,binary 0/1,0,1,16700,0.0,0.0,1.0,0,0.0,16700,0,270
+2_Blind [%],blind,%,0,100,16700,0.0,100.0,100.0,0,0.0,16700,0,0
+3_Window_state [Open/close],state,binary 0/1,0,1,16700,0.0,0.0,1.0,0,0.0,16700,0,273
+3_Blind [%],blind,%,0,100,16700,0.0,100.0,100.0,0,0.0,16700,0,0
+Outdoor temperature (°C),temperature,assumed degC,-50,60,16700,-4.68403573984649,13.4357261663918,28.0607016621208,0,0.0,16700,0,43
+Outdoor humidity [%],humidity,assumed %RH,0,100,16700,30.6207870149926,83.75829165558415,100.687924421762,8,0.00047904191616766467,16692,0,131
+Outdoor Wind speed [km/h],air_speed,km/h,0,200,16700,-1.39849789563877,12.088905752255549,50.7079145789778,30,0.0017964071856287425,16670,0,316
+HVAC state [0/1],state,binary 0/1,0,1,16700,0.0,0.0,1.0,0,0.0,16700,0,646
+Set point temperature,temperature,assumed degC,-50,60,16700,0.0,0.0,25.0,0,0.0,16700,0,646

@@ -1,0 +1,23 @@
+﻿check,passed,detail
+source_hashes_match_preprocessing,True,A/B raw and D_core vs preprocessing manifest
+single_feature_dataset_hash,True,C2 single feature version unchanged
+unique_valid_source_rows,True,source_row must identify one raw record
+CO2C2_matches_raw,True,No rescaling or imputation in the predictor
+Occupancy_matches_raw,True,No rewritten occupancy labels
+four_class_mapping_matches_raw,True,0 / 1-5 / 6-15 / >=16
+Datetime_matches_raw,True,Original metadata preserved
+Aula_matches_raw,True,Original metadata preserved
+Measure_ID_matches_raw,True,Original metadata preserved
+predictor_schema,True,Only CO2C2; temperature/humidity not in dataset
+plan_complete_unique,True,Candidate plan covers every Measure_ID once
+no_cross_split_Measure_ID,True,crossing keys=0
+no_cross_split_candidate_session,True,crossing keys=0
+no_cross_split_candidate_leakage_group,True,crossing keys=0
+"no_cross_split_['Datetime', 'CO2C2']",True,crossing keys=0
+raw_C1_C2_source_links_not_crossed,True,crossing links=0
+conflict_flags_reproduce,True,retained conflict flags=368
+unresolved_source_label_conflicts,False,368 retained rows / 184 raw sensor-time keys; label/source attribution unresolved
+repair_evidence_matches_raw,True,3136 field operations independently checked; not publisher-confirmed fixes
+repair_references_stay_within_session,True,Past same-Measure_ID anchors; D reference from same raw row
+multi_version_labels_unchanged,True,Temperature/humidity operations never rewrite occupancy
+protected_data_and_models_unchanged,True,"No datasets, existing models or raw files changed"

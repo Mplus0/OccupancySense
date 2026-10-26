@@ -1,0 +1,9 @@
+﻿scenario,valid_rows,zero_rows,recovered_excluded_zero,zero_measure_ids,date_prefix_mismatch_rows,zero_schools,zero_dependency_units,zero_candidate_sessions
+D_core,6116,192,0,7,0,4,4,4
+C1_CO2_raw,6032,325,316,10,0,2,8,6
+C2_CO2_raw,8139,545,353,17,0,7,13,11
+C1_core_raw,63,2,2,2,0,1,2,2
+C1_core_hypothesis_upper_bound,6208,325,316,10,0,2,8,6
+C2_core_raw,69,7,6,4,0,3,4,4
+C2_core_hypothesis_upper_bound,8315,545,353,17,0,7,13,11
+any_CO2_coverage_only,9501,545,353,17,0,7,13,11

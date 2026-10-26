@@ -1,0 +1,8 @@
+﻿rule,matched_raw_rows,removed_this_step,remaining
+missing_label,1237,1237,9848
+invalid_label,0,0,9848
+invalid_time,0,0,9848
+future_time,2,0,9848
+missing_CO2C2,2007,1533,8315
+invalid_CO2C2,0,0,8315
+CO2C2_out_of_range,176,176,8139

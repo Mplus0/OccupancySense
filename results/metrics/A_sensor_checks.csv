@@ -1,0 +1,24 @@
+﻿column,kind,assumed_unit,lower,upper,observed,min,median,max,outside_range,outside_rate_observed,in_range_raw,divide_1000_candidates,iqr_outliers_raw
+TairC1,temperature,assumed degC,-50.0,60.0,6469,14.0,21089.0,30687.0,5766,0.8913278713866131,703,5766,952
+RHC1,humidity,assumed %RH,0.0,100.0,6469,26.63,43604.0,67163.0,5845,0.9035399598083166,624,5845,624
+DewPointC1,dew_point,assumed degC,-50.0,50.0,6469,1.07,8979.0,21014.0,5891,0.9106507961044984,578,5889,304
+CO2C1,co2,"assumed ppm; review range, not physical bound",250.0,10000.0,6465,406.0,636.0,724000.0,176,0.027223511214230472,6289,176,457
+TairC2,temperature,assumed degC,-50.0,60.0,9095,16.85,20838.0,27998.0,8414,0.9251236943375482,681,8414,796
+RHC2,humidity,assumed %RH,0.0,100.0,9095,25.36,41528.0,75092.0,8234,0.9053326003298515,861,8234,864
+DewPointC2,dew_point,assumed degC,-50.0,50.0,9095,1.42,7686.0,17678.0,8204,0.9020340846619022,891,8204,0
+CO2C2,co2,"assumed ppm; review range, not physical bound",250.0,10000.0,9078,383.0,629.0,747000.0,176,0.019387530293016084,8902,176,600
+CO2R,co2,"assumed ppm; review range, not physical bound",250.0,10000.0,2245,396.01,581852.0,1852728.0,1538,0.6850779510022271,707,1538,23
+CO2D,co2,"assumed ppm; review range, not physical bound",250.0,10000.0,6374,375.0,643.0,2000.0,0,0.0,6374,0,196
+TairE,temperature,assumed degC,-50.0,60.0,5320,14.9,20.3,43.3,0,0.0,5320,0,848
+TairR,temperature,assumed degC,-50.0,60.0,2245,12.925999999999998,21068.0,29611.0,1522,0.6779510022271715,723,1522,0
+RHR,humidity,assumed %RH,0.0,100.0,2245,31.43,39705.0,61461.0,1557,0.6935412026726058,688,1557,0
+PM01R,particles,assumed ug/m3; review range,0.0,1000.0,2245,0.0,1.11,9666.0,594,0.26458797327394207,1651,594,316
+PM2.5R,particles,assumed ug/m3; review range,0.0,1000.0,2245,0.0,1.302322506904602,10376.0,664,0.29576837416481067,1581,664,293
+PM10R,particles,assumed ug/m3; review range,0.0,1000.0,2245,0.0,1.3305261135101318,10841.0,676,0.3011135857461025,1569,676,284
+TgD,temperature,assumed degC,-50.0,60.0,6374,13.2,21.1,31.0,0,0.0,6374,0,460
+TairD,temperature,assumed degC,-50.0,60.0,6374,11.3,21.4,31.2,0,0.0,6374,0,569
+PrD,pressure,assumed hPa; review range,800.0,1100.0,6374,994.7,1009.8,1028.2,0,0.0,6374,0,0
+RHD,humidity,assumed %RH,0.0,100.0,6374,28.4,47.3,72.0,0,0.0,6374,0,3
+VaD,air_speed,assumed m/s,0.0,20.0,6374,0.0,0.0,2.51,0,0.0,6374,0,1191
+VOCD,voc,unit unknown; negative check only,0.0,inf,6374,0.0,96.0,500.0,0,0.0,6374,0,621
+Metabolic,metabolic,assumed met; review only (zero may be sentinel),0.5,10.0,9848,0.0,1.2,1119.0,140,0.01421608448415922,9708,18,1060

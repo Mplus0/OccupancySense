@@ -4,6 +4,7 @@
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
 *.log
 
 # ======================================
@@ -12,34 +13,81 @@ __pycache__/
 .venv/
 venv/
 env/
+.conda/
 .env
 .env.*
 
 # ======================================
-# IDE
+# IDE / OS
 # ======================================
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
+desktop.ini
 
 # ======================================
-# Jupyter / Cache
+# Jupyter / cache
 # ======================================
 .ipynb_checkpoints/
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
 # ======================================
-# Raw and processed datasets
+# Raw data — never committed
+# 来源：Zenodo record 14621677，按需下载
 # ======================================
 data/raw/*
 !data/raw/.gitkeep
+!data/raw/README.md
 
+# ======================================
+# Processed datasets
+# 可由 src/preprocess*.py 确定性重建，不入库；
+# 指纹（SHA-256）记录在 results/**/manifest.json
+# ======================================
 data/processed/*
 !data/processed/.gitkeep
 
 # ======================================
-# System files
+# Model binaries
+# 由 src/train.py 重新生成，不入库
 # ======================================
-.DS_Store
-Thumbs.db
-desktop.ini
+models/*
+!models/.gitkeep
+
+# ======================================
+# Large per-row intermediate logs
+# 逐行决定/修复日志，体积数 MB，可重跑生成；
+# 汇总报告、检查结果、manifest 仍然提交
+# ======================================
+results/metrics/c2_preprocessing/row_decisions.csv
+results/metrics/c2_preprocessing/repair_decisions.csv
+results/metrics/c2_preprocessing/manual_review.csv
+results/metrics/preprocess_A_row_decisions.csv
+results/metrics/preprocess_A_scale_candidate_rows.csv
+results/metrics/preprocess_A_manual_review.csv
+results/metrics/preprocess_A_excluded_rows.csv
+results/metrics/A_issue_rows.csv
+results/metrics/B_issue_rows.csv
+results/metrics/A_duplicates.csv
+results/metrics/B_duplicates.csv
+results/metrics/A_cross_measure_duplicates.csv
+results/metrics/zero_coverage/zero_row_trace.csv
+
+# ======================================
+# Model training outputs
+# 模型训练已被门禁阻断，已有基线产物属历史实验结果：
+# 指标摘要保留在版本库，预测明细与模型二进制不入库
+# ======================================
+results/metrics/co2_baseline_v1/*_predictions.csv
+results/metrics/co2_baseline_v1/split_assignments.csv
+data/processed/co2_baseline_v1/
+
+# ======================================
+# Project-private
+# ======================================
+.workbuddy/

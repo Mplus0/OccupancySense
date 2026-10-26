@@ -1,0 +1,16 @@
+﻿column,lower,upper,assumed_unit,candidate_rows,retained_candidate_rows,rule,action
+TairC1,-50.0,60,assumed degC,5766,3136,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+RHC1,0.0,100,assumed %RH,5845,3221,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+DewPointC1,-50.0,50,assumed degC,5889,3254,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+CO2C1,250.0,10000,"assumed ppm; review range, not physical bound",176,0,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+TairC2,-50.0,60,assumed degC,8414,4974,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+RHC2,0.0,100,assumed %RH,8234,4870,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+DewPointC2,-50.0,50,assumed degC,8204,4849,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+CO2C2,250.0,10000,"assumed ppm; review range, not physical bound",176,0,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+CO2R,250.0,10000,"assumed ppm; review range, not physical bound",1538,1152,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+TairR,-50.0,60,assumed degC,1522,1132,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+RHR,0.0,100,assumed %RH,1557,1162,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+PM01R,0.0,1000,assumed ug/m3; review range,594,570,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+PM2.5R,0.0,1000,assumed ug/m3; review range,664,622,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+PM10R,0.0,1000,assumed ug/m3; review range,676,640,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first
+Metabolic,0.5,10,assumed met; review only (zero may be sentinel),18,0,"finite, outside bounds, abs(x)>=1000, x/1000 within bounds",NOT_APPLIED; verify source units and per-session mixed scales first

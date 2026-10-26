@@ -1,0 +1,15 @@
+﻿scenario,split_unit,units,zero_units,min_zero_per_subset,feasible,solver_status,limitation
+D_core,school_unit,11,4,1,True,0,coverage only; no device/label provenance confirmation; ratios soft
+D_core,school_unit,11,4,10,False,2,coverage only; no device/label provenance confirmation; ratios soft
+D_core,school_unit,11,4,20,False,2,coverage only; no device/label provenance confirmation; ratios soft
+D_core,session_candidate,20,4,1,True,0,coverage only; no device/label provenance confirmation; ratios soft
+D_core,session_candidate,20,4,10,False,2,coverage only; no device/label provenance confirmation; ratios soft
+D_core,session_candidate,20,4,20,False,2,coverage only; no device/label provenance confirmation; ratios soft
+D_core,chronological_whole_session,20,4,7,True,exhaustive,min_zero field is maximum attainable minimum; 31 all-class two-cut options; ratios not constrained
+C2_CO2_raw,school_unit,12,7,1,True,0,coverage only; no device/label provenance confirmation; ratios soft
+C2_CO2_raw,school_unit,12,7,10,True,0,coverage only; no device/label provenance confirmation; ratios soft
+C2_CO2_raw,school_unit,12,7,20,True,0,coverage only; no device/label provenance confirmation; ratios soft
+C2_CO2_raw,session_candidate,25,11,1,True,0,coverage only; no device/label provenance confirmation; ratios soft
+C2_CO2_raw,session_candidate,25,11,10,True,0,coverage only; no device/label provenance confirmation; ratios soft
+C2_CO2_raw,session_candidate,25,11,20,True,0,coverage only; no device/label provenance confirmation; ratios soft
+C2_CO2_raw,chronological_whole_session,25,11,120,True,exhaustive,min_zero field is maximum attainable minimum; 204 all-class two-cut options; ratios not constrained

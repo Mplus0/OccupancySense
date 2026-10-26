@@ -1,0 +1,3 @@
+﻿Measure_ID,proposed_split,candidate_session,dataset_rows,conflict_rows,conflict_share,conflict_keys,conflicted_class_0,conflicted_class_1,conflicted_class_2,conflicted_class_3,note
+20220307_Escola St Julia_4to_,train,20220307_Escola St Julia_4to_,438,184,0.4201,184,0,151,0,33,whole session would be quarantined under conservative quarantine
+20220307_Escola St Julia_P4_,train,20220307_Escola St Julia_4to_,231,184,0.7965,184,0,0,184,0,whole session would be quarantined under conservative quarantine

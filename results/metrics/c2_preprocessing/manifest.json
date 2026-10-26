@@ -1,0 +1,99 @@
+{
+  "status": "CANDIDATES_FOR_REVIEW_NOT_FINAL_SPLIT",
+  "as_of": "2026-10-26",
+  "protected_sha256": {
+    "data\\raw\\.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data\\raw\\Classroom_data_combined_main.xlsx": "d344d68dec35cc67f01479fe22baae5f5b93fe0cecf1ad8f0171f56c18356408",
+    "data\\raw\\ieq-dataset.csv": "4a6e57349edf3ab2e0cdfef61f13cfd1941c059a4e2714eefc5dfa74430356a2",
+    "data\\raw\\README.md": "62a116305c433e6a8ee38b630ab137a895116ca6465a17abd839d38ece428e41",
+    "data\\processed\\A_D_core_v1.csv": "6eca4e5db2c9b4e448230c1b5d85ed6945f38ae567f6371284a2442e1cf7d71e"
+  },
+  "source_md5": "4e79072861dc6c0ec9d5035769fbfb8c",
+  "published_md5_match": true,
+  "source_url": "https://zenodo.org/records/14621677",
+  "paper_url": "https://doi.org/10.1155/ina/5517242",
+  "source_checked_on": "2026-10-26",
+  "source_units": {
+    "TairC2": "degC",
+    "RHC2": "%RH",
+    "CO2C2": "ppm"
+  },
+  "screening_bounds": {
+    "CO2C2": [
+      250,
+      5000
+    ],
+    "TairC2": [
+      -20,
+      60
+    ],
+    "RHC2": [
+      0,
+      100
+    ]
+  },
+  "co2_lower_bound_note": "250 is project screening assumption, not instrument minimum",
+  "repair_rule": "fixed past-only original C2 within 600 seconds and simultaneous raw D; tolerances 2 degC/5 RH points; divisor1000 must uniquely satisfy both references among [1,10,100,1000,10000]; source checksum must match",
+  "repair_status": "corroborated engineering candidate, not publisher-confirmed erratum; unresolved unchanged",
+  "output_sha256": {
+    "A_C2_CO2_v1": "7a06efa12735305f934eeacfe99632f48744d6ad3c37b95fc626136ba65728ee",
+    "A_C2_core_raw_v1": "c909b1a5c925293f270b1149a1dcdbd05d807a31b578a7aaae145c89e08de13f",
+    "A_C2_core_supported_candidate_v1": "5de400572047161ddf6458f896051be6048df0904ed9892faecef04603e26051"
+  },
+  "default_features": {
+    "A_C2_CO2_v1": [
+      "CO2C2"
+    ],
+    "A_C2_core_raw_v1": [
+      "CO2C2",
+      "TairC2",
+      "RHC2"
+    ],
+    "A_C2_core_supported_candidate_v1": [
+      "CO2C2",
+      "TairC2",
+      "RHC2"
+    ]
+  },
+  "metadata_excluded_from_features": "all remaining columns, including raw values, repair flags, labels, IDs, time and review flags",
+  "solvers": {
+    "A_C2_CO2_v1/school_unit": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "minimum_class_rows": 20,
+      "minimum_class_sessions": 2,
+      "objective": 0.8440330229800914,
+      "mip_gap": 0.0
+    },
+    "A_C2_CO2_v1/candidate_session": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "minimum_class_rows": 20,
+      "minimum_class_sessions": 2,
+      "objective": 0.1371338614229977,
+      "mip_gap": 0.0
+    },
+    "A_C2_core_supported_candidate_v1/school_unit": {
+      "status": "infeasible_by_counts",
+      "minimum_class_rows": 20,
+      "minimum_class_sessions": 2
+    },
+    "A_C2_core_supported_candidate_v1/candidate_session": {
+      "status": "infeasible_by_counts",
+      "minimum_class_rows": 20,
+      "minimum_class_sessions": 2
+    }
+  },
+  "script_sha256": "e945cd874165ddd8abc4ad23f2250a5d8baae64e3d83e970d30d89b0bcc59adf",
+  "no_training": true,
+  "no_final_split": true,
+  "dependencies_sha256": {
+    "audit_data.py": "45df2f53193cadfd1fef40dfc3fba70954a5edd9afcfd9a12498ee403c505e9a",
+    "preprocess.py": "f9931b986bd85148bd930c81b41a865780f8866e149b7d8157bf8e140ad86171",
+    "analyze_split.py": "337b933bc515f8c797b401c3ed9927f48544c7c9184b3f69eafeeaa59633ae71"
+  },
+  "versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  }
+}

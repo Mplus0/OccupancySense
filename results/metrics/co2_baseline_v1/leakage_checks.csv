@@ -1,0 +1,16 @@
+﻿check,passed,detail
+source_rows_unique,True,No source row duplicated by joins
+CO2C2_unchanged,True,Exact comparison with raw source
+Occupancy_unchanged,True,No label guessing or rewriting
+class_mapping_correct,True,Original four class boundaries
+all_conflicts_excluded,True,All retained records associated with 184 ambiguous keys excluded
+CO2_finite,True,No imputation needed
+no_cross_split_Measure_ID,True,crossing keys=0
+no_cross_split_candidate_session,True,crossing keys=0
+no_cross_split_candidate_leakage_group,True,crossing keys=0
+"no_cross_split_['Datetime', 'CO2C2']",True,crossing keys=0
+known_raw_source_links_not_crossed,True,crossing links=0
+valid_split_names,True,Frozen original candidate plan
+train_all_classes,True,Coverage audit only; no split search
+validation_all_classes,True,Coverage audit only; no split search
+test_all_classes,True,Coverage audit only; no split search

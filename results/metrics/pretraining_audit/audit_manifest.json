@@ -1,0 +1,37 @@
+{
+  "status": "BLOCKED",
+  "blockers": [
+    "unresolved_source_label_conflicts"
+  ],
+  "model_training_performed": false,
+  "formal_split_created": false,
+  "feature_allowlist": [
+    "CO2C2"
+  ],
+  "protected_sha256": {
+    "data\\raw\\.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data\\raw\\Classroom_data_combined_main.xlsx": "d344d68dec35cc67f01479fe22baae5f5b93fe0cecf1ad8f0171f56c18356408",
+    "data\\raw\\ieq-dataset.csv": "4a6e57349edf3ab2e0cdfef61f13cfd1941c059a4e2714eefc5dfa74430356a2",
+    "data\\raw\\README.md": "62a116305c433e6a8ee38b630ab137a895116ca6465a17abd839d38ece428e41",
+    "data\\processed\\.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data\\processed\\A_C2_CO2_no_conflicts_v1.csv": "2a4f0c58108e900b819d8e8a385b640290a3037118d4f13f800b53161ec6f8cf",
+    "data\\processed\\A_C2_CO2_v1.csv": "7a06efa12735305f934eeacfe99632f48744d6ad3c37b95fc626136ba65728ee",
+    "data\\processed\\A_C2_core_raw_v1.csv": "c909b1a5c925293f270b1149a1dcdbd05d807a31b578a7aaae145c89e08de13f",
+    "data\\processed\\A_C2_core_supported_candidate_v1.csv": "5de400572047161ddf6458f896051be6048df0904ed9892faecef04603e26051",
+    "data\\processed\\A_D_core_v1.csv": "6eca4e5db2c9b4e448230c1b5d85ed6945f38ae567f6371284a2442e1cf7d71e",
+    "data\\processed\\co2_baseline_v1\\test.csv": "cd42de4b7b0d38782ec9791348dcd53f77d4522e7abc5efa76f58e76aca2d7a1",
+    "data\\processed\\co2_baseline_v1\\train.csv": "219e8d15027ff8bb91f8f042f1c34b06a0f6cc6f56f60b92f9f015d871f7cf04",
+    "data\\processed\\co2_baseline_v1\\validation.csv": "4e9953697400c7969cb95d8106bd94f6b54bbf888c1791a7c84914540a80df39",
+    "models\\.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "models\\co2_baseline_v1\\majority.joblib": "dbb8479817e6103e739ed854e92a359af1e2e1f6d9865984b4cd3e52d13f1c02",
+    "models\\co2_baseline_v1\\random_forest.joblib": "2de40b82667723b56e34d8b1239248dd048e18a9d71dfca46954463442e8e14a",
+    "models\\co2_baseline_v1\\svm.joblib": "a26677fce6d9df21a3faa822f2489c7af7e2d113d8fa2b590c20e661af07bfe1"
+  },
+  "candidate_plan_sha256": "324b80e8e8c682b2d0fafd1c256333de5267cf1f4cd7cd00f8e93df3d10c001e",
+  "repair_log_sha256": "712f360d73b4fe9f87001bab1024d823074f84789604c84cefdd5a671820a6eb",
+  "script_sha256": "9cb7614d62e97d39b5d5a6ff605028ad176b2a511fc63343d492bded12e3a23f",
+  "conflict_retained_rows": 368,
+  "conflict_retained_keys": 184,
+  "repair_field_operations": 3136,
+  "repair_distinct_source_rows": 2885
+}

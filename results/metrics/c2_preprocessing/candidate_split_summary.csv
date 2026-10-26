@@ -1,0 +1,7 @@
+﻿version,policy,split,rows,fraction,measure_groups,sessions,class_0,class_1,class_2,class_3,class_0_sessions,class_1_sessions,class_2_sessions,class_3_sessions
+A_C2_CO2_v1,school_unit,test,1251,0.1537043862882418,7,2,172,214,318,547,2,2,2,2
+A_C2_CO2_v1,school_unit,train,5557,0.6827620100749477,37,21,351,1524,1673,2009,7,20,18,17
+A_C2_CO2_v1,school_unit,validation,1331,0.1635336036368104,3,2,22,436,147,726,2,2,2,2
+A_C2_CO2_v1,candidate_session,test,1233,0.15149281238481385,10,6,100,326,304,503,2,6,5,5
+A_C2_CO2_v1,candidate_session,train,5723,0.7031576360732277,29,12,363,1548,1518,2294,7,11,12,12
+A_C2_CO2_v1,candidate_session,validation,1183,0.14534955154195847,8,7,82,300,316,485,2,7,5,4

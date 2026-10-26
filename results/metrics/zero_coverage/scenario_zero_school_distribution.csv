@@ -1,0 +1,34 @@
+﻿scenario,school,zero_rows,candidate_sessions
+D_core,ETSEIB,7,1
+D_core,Escola Bressol Vapor Buxeda Nou,170,1
+D_core,Escola Gaia,2,1
+D_core,Escola Roureda,13,1
+C1_CO2_raw,ETSEIB,323,5
+C1_CO2_raw,Escola Gaia,2,1
+C2_CO2_raw,ETSEIB,327,5
+C2_CO2_raw,Escola Bressol Joan Montllor,23,1
+C2_CO2_raw,Escola Bressol Vapor Buxeda Nou,170,1
+C2_CO2_raw,Escola Catalunya,1,1
+C2_CO2_raw,Escola Gaia,2,1
+C2_CO2_raw,Escola Roureda,13,1
+C2_CO2_raw,Institut Xalest,9,1
+C1_core_raw,ETSEIB,2,2
+C1_core_hypothesis_upper_bound,ETSEIB,323,5
+C1_core_hypothesis_upper_bound,Escola Gaia,2,1
+C2_core_raw,ETSEIB,5,2
+C2_core_raw,Escola Bressol Vapor Buxeda Nou,1,1
+C2_core_raw,Escola Catalunya,1,1
+C2_core_hypothesis_upper_bound,ETSEIB,327,5
+C2_core_hypothesis_upper_bound,Escola Bressol Joan Montllor,23,1
+C2_core_hypothesis_upper_bound,Escola Bressol Vapor Buxeda Nou,170,1
+C2_core_hypothesis_upper_bound,Escola Catalunya,1,1
+C2_core_hypothesis_upper_bound,Escola Gaia,2,1
+C2_core_hypothesis_upper_bound,Escola Roureda,13,1
+C2_core_hypothesis_upper_bound,Institut Xalest,9,1
+any_CO2_coverage_only,ETSEIB,327,5
+any_CO2_coverage_only,Escola Bressol Joan Montllor,23,1
+any_CO2_coverage_only,Escola Bressol Vapor Buxeda Nou,170,1
+any_CO2_coverage_only,Escola Catalunya,1,1
+any_CO2_coverage_only,Escola Gaia,2,1
+any_CO2_coverage_only,Escola Roureda,13,1
+any_CO2_coverage_only,Institut Xalest,9,1
